@@ -31,3 +31,17 @@ function getCount(str) {
   return vowelsCount;
 }
 ```
+
+### Work experience:
+
+[**Weather App**](https://weather-app-vlad.netlify.app)
+
+### Education:
+
+1. Youtube tutorials
+2. JavaScript https://javascript.info/
+
+### Languages:
+
+**Ukrainian:** Native
+**English:** A2
