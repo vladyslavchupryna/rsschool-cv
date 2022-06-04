@@ -2,9 +2,9 @@
 
 ### Contacts:
 
-**Discord:** vlad9n#0030
-**E-mail:** vladyslavchuprynadev@gmail.com
-**Tel:** +380630508023
+**Discord:** vlad9n#0030<br>
+**E-mail:** vladyslavchuprynadev@gmail.com<br>
+**Tel:** +380630508023<br>
 
 ### About myself:
 
@@ -43,5 +43,5 @@ function getCount(str) {
 
 ### Languages:
 
-**Ukrainian:** Native
-**English:** A2
+**Ukrainian:** Native<br>
+**English:** A2<br>
