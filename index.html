@@ -4,10 +4,221 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <title>Vladyslav Chupryna CV</title>
   </head>
   <body>
-    <h1>Vladyslav Chupryna</h1>
+   <div class="container">
+     <header class="header">
+       <nav class="header__nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#contacts">
+              Contacts
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#about">
+              About me
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills">
+              Skills
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#code">
+              Code example
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#projects">
+              Projects
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#courses">
+              Courses
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#languages">
+              Languages
+            </a>
+          </li>
+        </ul>
+       </nav>
+       <div class="header__content">
+        <img class="header__photo" src="img/avatar.png" alt="avatar">
+        <div class="header__info">
+          <h1 class="header__title">
+            Vladyslav Chupryna
+          </h1>
+          <p class="header__subtitle">
+            Junior Frontend Developer
+          </p>
+        </div>
+       </div>
+     </header>
+     <div class="content">
+      <aside class="aside">
+        <section class="contacts" id="contacts">
+          <h2 class="section__title">
+            Contacts
+          </h2>
+          <div class="section__content">
+            <ul class="contacts__list">             
+              <li class="contact__item">
+                <a class="email__link" href="mailto:vladyslavchuprynadev@gmail.com">
+                  <img class="contact__logo" src="img/email.svg" alt="email logo">
+                  Email
+                </a>
+              </li>
+              <li class="contact__item">
+                <a class="email__link" href="https://t.me/v1ad9n" target="_blank">
+                  <img class="contact__logo" src="img/telegram.svg" alt="telegram logo">
+                  Telegram
+                </a>
+              </li>
+              <li class="contact__item">
+                <a class="tel__link" href="tel:+380630508023">
+                  <img class="contact__logo" src="img/phone.svg" alt="mobile phone logo">
+                  Phone number
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="languages" id="languages">
+          <h2 class="section__title">
+            Languages
+          </h2>
+          <div class="section__content">
+            <ul class="languages__list">
+              <li class="language__item">
+                Ukrainian: native
+              </li>
+              <li class="language__item">
+                English: A2
+              </li>
+            </ul>
+          </div>
+        </section>
+      </aside>
+      <main class="main">
+        <section class="about" id="about">
+          <h2 class="section__title">
+            About me
+          </h2>
+          <div class="section__content">
+            <p class="about__text">
+              My name is Vladyslav. I'm 21 years old. I am a beginner in a frontend development. 
+              I recenly enrolled in the RS.School JS / FRONT-END course. 
+              Im learning html, css, js and other technologies to become a junior frontend developer.
+            </p>
+          </div>
+        </section>
+        <section class="skills" id="skills">
+          <h2 class="section__title">
+            Skills
+          </h2>
+          <div class="section__content">
+            <ul class="skills__list">
+              <li class="skill__item">
+                Html
+              </li>
+              <li class="skill__item">
+                CSS
+              </li>
+              <li class="skill__item">
+                JS
+              </li>
+              <li class="skill__item">
+                Git
+              </li>
+              <li class="skill__item">
+                VSCode
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="code" id="code">
+          <h2 class="section__title">
+            Code example
+          </h2>
+          <div class="section__content">
+            <pre><code>
+function getCount(str) {
+  let vowelsCount = 0;
+  let vowels = ["a", "e", "i", "o", "u"];
+  str.split("").forEach((char) => {
+    if (vowels.includes(char)) vowelsCount++;
+  });
+  return vowelsCount;
+}
+              </code></pre>           
+          </div>
+        </section>
+        <section class="projects" id="projects">
+          <h2 class="section__title">
+            Projects
+          </h2>
+          <div class="section__content">
+            <ol class="projects__list">
+              <li class="project__item">
+                <a class="project__link" href="https://vladyslavchupryna.github.io/rsschool-cv/" target="_blank">
+                  CV
+                </a>
+              </li>
+              <li class="project__item">
+                <a class="project__link" href="https://weather-app-vlad.netlify.app/" target="_blank">
+                  Weather app
+                </a>
+              </li>
+            </ol>
+          </div>
+        </section>
+        <section class="courses" id="courses">
+          <h2 class="section__title">
+            Courses
+          </h2>
+          <div class="section__content">
+            <ul class="courses__list">   
+              <li class="course__item">
+                <a class="course__link" href="https://code-basics.com/">
+                  Html & CSS basics
+                </a>
+              </li>      
+              <li class="course__item">
+                <a class="course__link" href="https://javascript.info/">
+                  Javascript tutorial
+                </a>
+              </li>
+              <li class="course__item">
+                <a class="course__link" href="https://youtube.com">
+                  Youtube videos
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+     </div>
+     <footer class="footer">
+       <a class="footer__link" href="https://github.com/vladyslavchupryna" target="_blank">
+         <img class="git__logo" src="img/github-logo.png" alt="github logo">
+       </a>
+       <span>
+         2022
+       </span>
+       <a class="footer__link" href="https://rs.school/js" target="_blank">
+        <img class="rs__logo" src="img/rs_school.svg" alt="rs school course">
+      </a>
+     </footer>
+   </div>
   </body>
 </html>
